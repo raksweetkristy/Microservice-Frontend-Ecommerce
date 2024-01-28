@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+img{
+    object-fit: contain;
+}
+:root{
+    --color-blue: #fe716c;
+    --color-background: white;
+}
+body{
+    background-color: #f2f3f8;
+}
+.navbar-search{
+    width: 350px;
+}
+.nav-search-box button{
+    color: var(--color-blue);
+}
+.navbar-option li{
+    margin: 0px 8px;
+}
+.navbar-menu li a{
+    padding: 8px 16px;
+    display: block;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+.navbar-menu li a:nth-child(1){
+    padding-left: 0px;
+}
+.categories-title-homepage{
+    color: white;
+    background-color: var(--color-blue);
+    padding: 8px 16px;
+}
+.main-menu-categories li a{
+    display: block;
+    padding: 12px 16px;
+
+}
+.background-cart-promote{
+    background-color: var(--color-background);
+}
+
+
+.background-cart-promote .img-background-cart{
+    transition: 0.4s;
+}
+.background-cart-promote:hover .img-background-cart{
+    transform: scale(1.2);
+}
+.btn-cart{
+    background-color: var(--color-blue);
+    transition: 0.2s;
+}
+.cart-product:hover .btn-cart{
+    background-color: #4e54c8;
+}
+.limit-offer{
+    background-color: var(--color-blue);
+}

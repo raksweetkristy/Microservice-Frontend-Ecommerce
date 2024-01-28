@@ -1,0 +1,11 @@
+version: "3"
+services:
+  agency-portal:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: "agency-portal-staging"
+    env_file:
+      - .env
+    ports:
+      - "8008:3000"
