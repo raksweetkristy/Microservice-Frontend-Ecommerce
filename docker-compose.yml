@@ -4,8 +4,6 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: "agency-portal-staging"
-    env_file:
-      - .env
+    container_name: "App"
     ports:
       - "8008:3000"
