@@ -3,20 +3,25 @@
 @tailwind utilities;
 
 img{
-    object-fit: contain;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
 }
 :root{
-    --color-blue: #fe716c;
-    --color-background: white;
+    --color-primary: #fe716c;
+    --color-secondary : #dd3333;
+    --color-white : #ffffff;
+    --color-black : #000000;
+    --color-gray : #555;
 }
 body{
-    background-color: #f2f3f8;
+    background-color: var(--color-white);
 }
 .navbar-search{
     width: 350px;
 }
 .nav-search-box button{
-    color: var(--color-blue);
+    color: var(--color-primary);
 }
 .navbar-option li{
     margin: 0px 8px;
@@ -33,32 +38,11 @@ body{
 }
 .categories-title-homepage{
     color: white;
-    background-color: var(--color-blue);
+    background-color: var(--color-primary);
     padding: 8px 16px;
 }
 .main-menu-categories li a{
     display: block;
     padding: 12px 16px;
 
-}
-.background-cart-promote{
-    background-color: var(--color-background);
-}
-
-
-.background-cart-promote .img-background-cart{
-    transition: 0.4s;
-}
-.background-cart-promote:hover .img-background-cart{
-    transform: scale(1.2);
-}
-.btn-cart{
-    background-color: var(--color-blue);
-    transition: 0.2s;
-}
-.cart-product:hover .btn-cart{
-    background-color: #4e54c8;
-}
-.limit-offer{
-    background-color: var(--color-blue);
 }

@@ -1,6 +1,6 @@
 <template>
     <nav class="bg-white">
-        <div class="border-b border-grey">
+        <div class="border-b border-gray/20">
             <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 text-sm flex justify-between py-2 text-gray-500 ">
                 <ul>
                     <li>Enjoy a safe, convenient shopping experience.</li>
@@ -10,14 +10,14 @@
                 </ul>
             </div>
         </div>
-        <div class="border-b border-grey">
+        <div class="border-b border-gray/20">
             <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 text-sm flex justify-between py-5">
                 <ul>
                     <li><img style="width: 200px;" src="https://cartzilla.createx.studio/img/logo-dark.png" alt=""></li>
                 </ul>
                 <div class="flex items-center nav-search-box">
                     <input type="text" class="border p-3 px-5 navbar-search" placeholder="Looking for ...">
-                    <button class="border-t border-black border-r border-b p-3">
+                    <button class="border-t border-r border-b p-2.5">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
                     </button>
                 </div>
@@ -55,7 +55,7 @@
                 </ul>
             </div>
         </div>
-        <div class="border-b border-grey">
+        <div class="border-b border-gray/20 ">
             <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 text-sm flex justify-between py-2">
                 <ul class="flex navbar-menu text-sm">
                     <li>
